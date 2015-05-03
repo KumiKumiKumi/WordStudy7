@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA1D82551AF6ACF6001B3A39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1D82541AF6ACF6001B3A39 /* AppDelegate.swift */; };
+		FA1D82581AF6ACF6001B3A39 /* WordStudy7.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA1D82561AF6ACF6001B3A39 /* WordStudy7.xcdatamodeld */; };
+		FA1D825A1AF6ACF6001B3A39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1D82591AF6ACF6001B3A39 /* ViewController.swift */; };
+		FA1D825D1AF6ACF6001B3A39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1D825B1AF6ACF6001B3A39 /* Main.storyboard */; };
+		FA1D825F1AF6ACF6001B3A39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1D825E1AF6ACF6001B3A39 /* Images.xcassets */; };
+		FA1D82621AF6ACF6001B3A39 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1D82601AF6ACF6001B3A39 /* LaunchScreen.xib */; };
+		FA1D826E1AF6ACF6001B3A39 /* WordStudy7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1D826D1AF6ACF6001B3A39 /* WordStudy7Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA1D82681AF6ACF6001B3A39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA1D82471AF6ACF6001B3A39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA1D824E1AF6ACF6001B3A39;
+			remoteInfo = WordStudy7;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA1D824F1AF6ACF6001B3A39 /* WordStudy7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordStudy7.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1D82531AF6ACF6001B3A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1D82541AF6ACF6001B3A39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA1D82571AF6ACF6001B3A39 /* WordStudy7.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WordStudy7.xcdatamodel; sourceTree = "<group>"; };
+		FA1D82591AF6ACF6001B3A39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA1D825C1AF6ACF6001B3A39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA1D825E1AF6ACF6001B3A39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA1D82611AF6ACF6001B3A39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FA1D82671AF6ACF6001B3A39 /* WordStudy7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordStudy7Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1D826C1AF6ACF6001B3A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1D826D1AF6ACF6001B3A39 /* WordStudy7Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordStudy7Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA1D824C1AF6ACF6001B3A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1D82641AF6ACF6001B3A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA1D82461AF6ACF5001B3A39 = {
+			isa = PBXGroup;
+			children = (
+				FA1D82511AF6ACF6001B3A39 /* WordStudy7 */,
+				FA1D826A1AF6ACF6001B3A39 /* WordStudy7Tests */,
+				FA1D82501AF6ACF6001B3A39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA1D82501AF6ACF6001B3A39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA1D824F1AF6ACF6001B3A39 /* WordStudy7.app */,
+				FA1D82671AF6ACF6001B3A39 /* WordStudy7Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA1D82511AF6ACF6001B3A39 /* WordStudy7 */ = {
+			isa = PBXGroup;
+			children = (
+				FA1D82541AF6ACF6001B3A39 /* AppDelegate.swift */,
+				FA1D82591AF6ACF6001B3A39 /* ViewController.swift */,
+				FA1D825B1AF6ACF6001B3A39 /* Main.storyboard */,
+				FA1D825E1AF6ACF6001B3A39 /* Images.xcassets */,
+				FA1D82601AF6ACF6001B3A39 /* LaunchScreen.xib */,
+				FA1D82561AF6ACF6001B3A39 /* WordStudy7.xcdatamodeld */,
+				FA1D82521AF6ACF6001B3A39 /* Supporting Files */,
+			);
+			path = WordStudy7;
+			sourceTree = "<group>";
+		};
+		FA1D82521AF6ACF6001B3A39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA1D82531AF6ACF6001B3A39 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA1D826A1AF6ACF6001B3A39 /* WordStudy7Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FA1D826D1AF6ACF6001B3A39 /* WordStudy7Tests.swift */,
+				FA1D826B1AF6ACF6001B3A39 /* Supporting Files */,
+			);
+			path = WordStudy7Tests;
+			sourceTree = "<group>";
+		};
+		FA1D826B1AF6ACF6001B3A39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA1D826C1AF6ACF6001B3A39 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA1D824E1AF6ACF6001B3A39 /* WordStudy7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1D82711AF6ACF6001B3A39 /* Build configuration list for PBXNativeTarget "WordStudy7" */;
+			buildPhases = (
+				FA1D824B1AF6ACF6001B3A39 /* Sources */,
+				FA1D824C1AF6ACF6001B3A39 /* Frameworks */,
+				FA1D824D1AF6ACF6001B3A39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordStudy7;
+			productName = WordStudy7;
+			productReference = FA1D824F1AF6ACF6001B3A39 /* WordStudy7.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA1D82661AF6ACF6001B3A39 /* WordStudy7Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1D82741AF6ACF6001B3A39 /* Build configuration list for PBXNativeTarget "WordStudy7Tests" */;
+			buildPhases = (
+				FA1D82631AF6ACF6001B3A39 /* Sources */,
+				FA1D82641AF6ACF6001B3A39 /* Frameworks */,
+				FA1D82651AF6ACF6001B3A39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA1D82691AF6ACF6001B3A39 /* PBXTargetDependency */,
+			);
+			name = WordStudy7Tests;
+			productName = WordStudy7Tests;
+			productReference = FA1D82671AF6ACF6001B3A39 /* WordStudy7Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA1D82471AF6ACF6001B3A39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = KumiHamazaki;
+				TargetAttributes = {
+					FA1D824E1AF6ACF6001B3A39 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					FA1D82661AF6ACF6001B3A39 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = FA1D824E1AF6ACF6001B3A39;
+					};
+				};
+			};
+			buildConfigurationList = FA1D824A1AF6ACF6001B3A39 /* Build configuration list for PBXProject "WordStudy7" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA1D82461AF6ACF5001B3A39;
+			productRefGroup = FA1D82501AF6ACF6001B3A39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA1D824E1AF6ACF6001B3A39 /* WordStudy7 */,
+				FA1D82661AF6ACF6001B3A39 /* WordStudy7Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA1D824D1AF6ACF6001B3A39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1D825D1AF6ACF6001B3A39 /* Main.storyboard in Resources */,
+				FA1D82621AF6ACF6001B3A39 /* LaunchScreen.xib in Resources */,
+				FA1D825F1AF6ACF6001B3A39 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1D82651AF6ACF6001B3A39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA1D824B1AF6ACF6001B3A39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1D825A1AF6ACF6001B3A39 /* ViewController.swift in Sources */,
+				FA1D82551AF6ACF6001B3A39 /* AppDelegate.swift in Sources */,
+				FA1D82581AF6ACF6001B3A39 /* WordStudy7.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1D82631AF6ACF6001B3A39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1D826E1AF6ACF6001B3A39 /* WordStudy7Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA1D82691AF6ACF6001B3A39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA1D824E1AF6ACF6001B3A39 /* WordStudy7 */;
+			targetProxy = FA1D82681AF6ACF6001B3A39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA1D825B1AF6ACF6001B3A39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA1D825C1AF6ACF6001B3A39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA1D82601AF6ACF6001B3A39 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA1D82611AF6ACF6001B3A39 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA1D826F1AF6ACF6001B3A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA1D82701AF6ACF6001B3A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA1D82721AF6ACF6001B3A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WordStudy7/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA1D82731AF6ACF6001B3A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WordStudy7/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA1D82751AF6ACF6001B3A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WordStudy7Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordStudy7.app/WordStudy7";
+			};
+			name = Debug;
+		};
+		FA1D82761AF6ACF6001B3A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WordStudy7Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordStudy7.app/WordStudy7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA1D824A1AF6ACF6001B3A39 /* Build configuration list for PBXProject "WordStudy7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1D826F1AF6ACF6001B3A39 /* Debug */,
+				FA1D82701AF6ACF6001B3A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA1D82711AF6ACF6001B3A39 /* Build configuration list for PBXNativeTarget "WordStudy7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1D82721AF6ACF6001B3A39 /* Debug */,
+				FA1D82731AF6ACF6001B3A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA1D82741AF6ACF6001B3A39 /* Build configuration list for PBXNativeTarget "WordStudy7Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1D82751AF6ACF6001B3A39 /* Debug */,
+				FA1D82761AF6ACF6001B3A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA1D82561AF6ACF6001B3A39 /* WordStudy7.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA1D82571AF6ACF6001B3A39 /* WordStudy7.xcdatamodel */,
+			);
+			currentVersion = FA1D82571AF6ACF6001B3A39 /* WordStudy7.xcdatamodel */;
+			path = WordStudy7.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA1D82471AF6ACF6001B3A39 /* Project object */;
+}
