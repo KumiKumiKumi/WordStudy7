@@ -233,7 +233,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         labelTitle.layer.masksToBounds = true
         labelTitle.layer.cornerRadius = 10.0
         labelTitle.text = "単語練習"
-        labelTitle.textColor = UIColor.whiteColor()
+        labelTitle.textColor = UIColor.blackColor() //whiteからblackに変更
         labelTitle.shadowColor = UIColor.grayColor()
         labelTitle.textAlignment = NSTextAlignment.Center
         labelTitle.layer.position = CGPoint(x: self.view.bounds.width/2,y: 70) //配置設定
